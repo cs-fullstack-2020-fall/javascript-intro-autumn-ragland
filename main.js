@@ -37,3 +37,8 @@ let deduction = parseInt(prompt("How much would you like to deduct"));
 // let newBalance = balance - deduction;
 // print new balance
 console.log("Your new balance is: " + (balance - deduction));
+
+// parse int example
+let numOne = "10";
+let numTwo = "20";
+console.log(parseInt(numOne) + parseInt(numTwo));
